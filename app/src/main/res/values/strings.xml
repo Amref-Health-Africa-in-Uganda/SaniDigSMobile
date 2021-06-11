@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SaniDigS Mobile</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <string name="skiptext"><u>Skip feedback</u></string>
+
+    <string name="api_key">AIzaSyBywdOSXXwVBLdxCsItuII96fp9OHW3kko</string>
+
+</resources>

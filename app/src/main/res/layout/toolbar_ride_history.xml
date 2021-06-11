@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:contentInsetStart="0dp"
+    android:background="@drawable/rect_blue"
+    android:orientation="horizontal"
+    android:id="@+id/toolbar_ride_his">
+
+
+    <ImageView
+        android:layout_marginLeft="19.2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_left_arrow"
+        android:tint="@color/white"
+        android:id="@+id/backward_history"/>
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SaniDigs Mobile History"
+        android:layout_gravity="center"
+        android:textSize="17.3sp"
+        android:textColor="#ffffff"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_notifications_none_black_24dp"
+        android:layout_marginRight="10dp"/>
+
+
+
+
+
+</androidx.appcompat.widget.Toolbar>
