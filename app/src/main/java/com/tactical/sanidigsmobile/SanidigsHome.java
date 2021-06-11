@@ -535,7 +535,7 @@ public class SanidigsHome extends AppCompatActivity implements OnMapReadyCallbac
 
         //exorcist direction lib
 
-        GoogleDirection.withServerKey("AIzaSyBywdOSXXwVBLdxCsItuII96fp9OHW3kko").from(origin).to(latLng).transportMode(TransportMode.DRIVING)
+        GoogleDirection.withServerKey("_YOURKEY_").from(origin).to(latLng).transportMode(TransportMode.DRIVING)
                 .execute(new DirectionCallback() {
                     @Override
                     public void onDirectionSuccess(@Nullable Direction direction) {
