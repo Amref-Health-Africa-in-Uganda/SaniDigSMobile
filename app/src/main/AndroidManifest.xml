@@ -16,7 +16,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBywdOSXXwVBLdxCsItuII96fp9OHW3kko" />
+            android:value="_YOURKEY_" />
 
         <activity android:name=".SanidigsHome"/>
         <activity android:name=".Sign_Up" />
