@@ -392,7 +392,7 @@ public class SanidigsHome extends AppCompatActivity implements OnMapReadyCallbac
                     //route
 
 
-                    GoogleDirection.withServerKey("AIzaSyBywdOSXXwVBLdxCsItuII96fp9OHW3kko").from(originlatlng).to(destinationlatlng).transportMode(TransportMode.DRIVING)
+                    GoogleDirection.withServerKey("_YOURKEY_").from(originlatlng).to(destinationlatlng).transportMode(TransportMode.DRIVING)
                             .unit(Unit.METRIC).execute(new DirectionCallback() {
                                 @Override
                                 public void onDirectionSuccess(@Nullable Direction direction) {
