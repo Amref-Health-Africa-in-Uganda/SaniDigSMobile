@@ -5,4 +5,5 @@ SaniDigS Mobile is a customer centered mobile application in the hands of a home
 
 SaniDigS Mobile publish version for pilot review with stakeholders, Amref Health in Africa, Ministry of Water and Environment, Kawempe Division KCCA and others.
 
+Available on google playstore
 https://play.google.com/store/apps/details?id=com.tactical.sanidigsmobile
